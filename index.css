@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --alice-blue:var(--alice-blue);
+    --dark-blue:var(rgb(34, 34, 65));
+}
+
+body {
+    margin: 0;
+    background-image: url(basketball-unsplash.jpg);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(34, 34, 65);
+    color: aliceblue;
+    width: 575px;
+    height: 385px;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+
+.card {
+    font-size: 60px;
+    font-family: "Oxanium", sans-serif;
+    text-align: center;
+    padding: 30px;
+    margin: 60px auto;
+    
+}
+
+.title {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 19px;
+
+}
+
+.score-window {
+    background-color: black;
+    color: red;
+}
+
+button {
+    background-color: transparent;
+    border-color: aliceblue;
+    border-radius: 3px;
+    color: aliceblue;
+    padding: 5px;
+}
